@@ -3,6 +3,8 @@
 **AI Finance Platform** is a cutting-edge web application designed to provide personalized financial insights, tools, and automation powered by artificial intelligence. Built on Next.js and React, the platform integrates authentication, advanced UI components, automated email workflows, and modern data visualization features.
 
 <img width="983" height="595" alt="image" src="https://github.com/user-attachments/assets/d89c5ff6-80a1-4959-9ea4-057f1132b5dd" />
+<img width="1104" height="543" alt="image" src="https://github.com/user-attachments/assets/7c2ab54d-41bd-4db8-bbb6-45b1d16861a7" />
+
 
 
 ## Table of Contents
