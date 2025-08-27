@@ -40,6 +40,7 @@ Clone the repository and install dependencies:
 git clone [https://github.com/ashishpatel46/ai-finance-platform.git](https://github.com/ashishpatel46/welth.git)
 
 cd ai-finance-platform
+
 npm install
 
 
