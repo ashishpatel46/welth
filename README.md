@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# AI Finance Platform
 
-## Getting Started
+**AI Finance Platform** is a cutting-edge web application designed to provide personalized financial insights, tools, and automation powered by artificial intelligence. Built on Next.js and React, the platform integrates authentication, advanced UI components, automated email workflows, and modern data visualization features.
+![Uploading image.png…]()
 
-First, run the development server:
 
-```bash
+## Table of Contents
+- Features
+- Tech Stack
+- Installation
+- Scripts
+- Usage
+
+## Features
+- AI-powered financial analysis and recommendations (Google Generative AI)
+- Secure authentication via Clerk
+- Automated email features with React Email and Resend
+- Dynamic themes with Next Themes
+- Rich UI powered by Radix UI and Lucide Icons
+- Interactive charts and data visualizations using Recharts
+- Form validation and data schema enforcement with Zod and React Hook Form
+
+## Tech Stack
+- **Framework:** Next.js, React
+- **Database ORM:** Prisma
+- **UI Libraries:** Radix UI, Lucide React, Tailwind CSS
+- **Authentication:** Clerk
+- **Email Automation:** React Email, Resend
+- **Validation:** Zod, React Hook Form
+- **Visualization:** Recharts
+- **Additional:** date-fns, react-day-picker, vaul
+
+## Installation
+
+Clone the repository and install dependencies:
+
+git clone https://github.com/ashishpatel46/ai-finance-platform.git
+cd ai-finance-platform
+npm install
+
+
+Set up your environment variables for Clerk, Prisma, Resend, and other relevant integrations.
+
+## Scripts
+
+- `npm run dev`: Start the development server with Turbopack
+- `npm run build`: Build the application for production
+- `npm run start`: Start the production server
+- `npm run lint`: Run ESLint checks
+- `npm run postinstall`: Generate Prisma client
+- `npm run email`: Email development workflow
+
+## Usage
+
+After setup, start the development server:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Access the platform at `http://localhost:3000` for financial tools and insights.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
